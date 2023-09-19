@@ -6,4 +6,5 @@ namespace GildedRose\Products;
 
 interface ProductInterface
 {
+    public function updateItem(): void;
 }
