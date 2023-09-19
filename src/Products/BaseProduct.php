@@ -17,7 +17,7 @@ readonly class BaseProduct implements ProductInterface
     ) {
     }
 
-    public function isExpiredDate(): bool
+    protected function isExpiredDate(): bool
     {
         return $this->item->sellIn < 0;
     }
